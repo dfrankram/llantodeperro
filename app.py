@@ -85,8 +85,8 @@ def elenco():
 # Crear la barra de navegación
 st.set_page_config(page_title="Llanto de perro", page_icon=":dog:")
 menu = ["Inicio", "Próximas funciones", "Contacto", "Prensa", "Elenco"]
-choice = st.sidebar.selectbox("Selecciona una opción", menu)
-
+#choice = st.sidebar.selectbox("Selecciona una opción", menu)
+choice = st.selectbox("Navegación", menu)
 
 # Mostrar la página correspondiente según la opción elegida
 if choice == "Inicio":
