@@ -2,15 +2,15 @@ import streamlit as st
 from PIL import Image
 
 
-img = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\LDP-156.jpg")
-img2 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\LDP-200.jpg")
-img3 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\LDP-263.jpg")
-img4 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\LDP-637.jpg")
-img5 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\Martha.jpg")
-img6 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\Adri.jpg")
-img7 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\Mario.jpg")
-img8 = Image.open("D:\Franco2\Python\Llantodeperrostreamlit\Franco.jpg")
-img9 = Image.open(r"D:\Franco2\Python\Llantodeperrostreamlit\Negro.jpg")
+img = Image.open("LDP-156.jpg")
+img2 = Image.open("LDP-200.jpg")
+img3 = Image.open("LDP-263.jpg")
+img4 = Image.open("LDP-637.jpg")
+img5 = Image.open("Martha.jpg")
+img6 = Image.open("Adri.jpg")
+img7 = Image.open("Mario.jpg")
+img8 = Image.open("Franco.jpg")
+img9 = Image.open("Negro.jpg")
 
 def home():
     st.markdown(f"<h1 style='color: #b5752f;'>Llanto de perro</h1>", unsafe_allow_html=True)
